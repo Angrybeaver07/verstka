@@ -27,6 +27,8 @@ header{
 
 .topline{
     position: fixed;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .main-contant{
