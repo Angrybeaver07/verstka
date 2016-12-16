@@ -1,3 +1,46 @@
+html, body {
+    font-family: sans-serif;
+    font-size: 14;
+    font-style: normal;
+    background-color: #fff;
+    color: #000;
+}
+
+/* для того чтобы видеть в процессе разработки где они находятся */
 div {
-border: 1px solid black;
+    border: 1px solid #000;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto 20%;
+    padding: 0 0 20%;
+}
+
+header{
+    margin: 0 auto;
+    top: 0;
+    min-height: 95px;
+}
+
+.topline{
+    position: fixed;
+}
+
+.main-contant{
+    min-height: 800px;
+    margin-top: 115px;
+}
+
+nav {
+    background: #000;
+    width: 80%;
+    height: 10%;
+    top: 0;
+}
+
+footer{
+    margin: 0 auto;
 }
